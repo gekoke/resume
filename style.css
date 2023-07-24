@@ -1,0 +1,174 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css');
+@import url('https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue');
+
+:root {
+    --base01: #181825;
+    --base02: #313244;
+    --base03: #45475a;
+    --base04: #585b70;
+    --base05: #cdd6f4;
+    --base06: #f5e0dc;
+    --base07: #b4befe;
+    --base08: #f38ba8;
+    --base09: #fab387;
+    --base0A: #f9e2af;
+    --base0B: #a6e3a1;
+    --base0C: #94e2d5;
+    --base0D: #89b4fa;
+    --base0E: #cba6f7;
+    --base0F: #f2cdcd;
+}
+
+@media print {
+  @page { margin: 0; }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    line-height: 1.4em;
+    font-size: 0.85em;
+    max-width: 100ch;
+
+    background-color: var(--base01);
+    color: var(--base05);
+
+    font-family: 'Iosevka Web', monospace;
+}
+
+a {
+    color: var(--base09)
+}
+
+a:hover {
+    color: var(--base0B)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--base08);
+}
+
+li {
+    list-style-type: square;
+}
+
+li::marker {
+    color: var(--base08)
+}
+
+em {
+    background-color: var(--base02);
+    color: var(--base0C);
+    border-radius: 0.2em;
+    padding: 0.05em 0.2em 0.05em 0.2em;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+.bio .name {
+    font-size: 2.15em;
+    color: var(--base06);
+}
+
+.bio .description {
+    font-family: 'Comic Neue';
+    font-style: italic;
+}
+
+.bio .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.bio .contact-info i {
+    font-size: 1.1em;
+}
+
+ul.contact-info {
+    padding-inline-start: 0;
+}
+
+.bio .contact-info li {
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.subsections-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.subsection {
+    break-inside: avoid;
+}
+
+.organization-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.organization {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    break-inside: avoid;
+    border: var(--base02);
+    border-style: dotted;
+    padding: 0.7em;
+}
+
+.organization .tenure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.organization .tenure .title {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.organization .tenure .timeframe {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.organization .name {
+    font-size: 1.15em;
+    font-weight: 300;
+    color: var(--base0A);
+}
+
+.organization .description li {
+    padding: 0.15em;
+}
+
+.organization .tech ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.organization .tech li {
+    list-style-type: none;
+    color: var(--base0D);
+    border-color: var(--base0E);
+    border-style: none none solid none;
+}
