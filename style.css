@@ -156,10 +156,6 @@ ul.contact-info {
     color: var(--base0A);
 }
 
-.organization .description li {
-    padding: 0.15em;
-}
-
 .organization .courses li {
     list-style-type: "| ";
 }
