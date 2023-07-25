@@ -128,7 +128,6 @@ ul.contact-info {
 .organization {
     display: flex;
     flex-direction: column;
-    align-content: space-evenly;
     break-inside: avoid;
     border: var(--base02);
     border-style: dotted;
@@ -154,6 +153,11 @@ ul.contact-info {
     font-size: 1.15em;
     font-weight: 300;
     color: var(--base0A);
+}
+
+.organization ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .organization .courses li {
