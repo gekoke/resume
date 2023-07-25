@@ -160,10 +160,25 @@ ul.contact-info {
     padding: 0.15em;
 }
 
+.organization .courses li {
+    list-style-type: "| ";
+}
+
+.organization .courses li::marker {
+    color: var(--base0B)
+}
+
+.organization .courses em {
+    font-weight: 700;
+    font-style: normal;
+    background-color: var(--base01);
+}
+
 .organization .tech ul {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
+    padding-left: 2em;
 }
 
 .organization .tech li {
