@@ -19,6 +19,10 @@
         '';
       };
 
+      devShells.${system}.default = pkgs.mkShell {
+        buildInputs = [ pkgs.nodePackages.cspell ];
+      };
+
       packages.${system}.default = pkgs.stdenvNoCC.mkDerivation {
         name = "gregor-grigorjan-resume";
         src = ./.;
