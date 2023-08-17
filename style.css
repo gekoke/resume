@@ -187,3 +187,13 @@ ul.contact-info {
     border-color: var(--base0E);
     border-style: none none solid none;
 }
+
+#language-list {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    list-style-type: none;
+}
+
+#language-list li {
+    list-style-type: none;
+}
