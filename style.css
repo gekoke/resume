@@ -43,11 +43,11 @@ body {
 }
 
 a {
-    color: var(--base09)
+    color: var(--base09);
 }
 
 a:hover {
-    color: var(--base0B)
+    color: var(--base0B);
 }
 
 h1,
@@ -160,15 +160,15 @@ ul.contact-info {
     margin-bottom: 0.5em;
 }
 
-.organization .courses li {
+.alt-li-style li {
     list-style-type: "| ";
 }
 
-.organization .courses li::marker {
+.alt-li-style li::marker {
     color: var(--base0B)
 }
 
-.organization .courses em {
+.alt-li-style em {
     font-weight: 700;
     font-style: normal;
     background-color: var(--base01);
