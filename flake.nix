@@ -20,7 +20,10 @@
       };
 
       devShells.${system}.default = pkgs.mkShell {
-        buildInputs = [ pkgs.nodePackages.cspell ];
+        buildInputs = with pkgs; [
+          chromium
+          nodePackages.cspell
+        ];
       };
 
       packages.${system}.default = pkgs.stdenvNoCC.mkDerivation {
