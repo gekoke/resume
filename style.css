@@ -136,7 +136,7 @@ em {
     flex-direction: column;
     break-inside: avoid;
     border: var(--base02);
-    border-style: dotted;
+    border-style: solid;
     padding: 0.7em;
 }
 
