@@ -1,11 +1,10 @@
-name: nix flake check
+name: ci
 
 on:
   push:
-  pull_request:
 
 jobs:
-  nix-flake-check:
+  check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -14,5 +13,5 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@v1
       - name: Enable magic Nix cache
         uses: DeterminateSystems/magic-nix-cache-action@main
-      - name: Run `nix flake check`
-        run: nix flake check
+      - name: Run checks
+        run: nix flake check -L
