@@ -64,6 +64,16 @@ h6 {
     color: var(--base08);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.2em;
+    margin-top: 0.6em;
+}
+
 li {
     list-style-type: square;
 }
@@ -127,14 +137,10 @@ em {
     flex-direction: column;
 }
 
-.subsection {
-    break-inside: avoid;
-}
-
 .organization-container {
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
+    gap: 0.1em;
 }
 
 .organization {
@@ -143,7 +149,7 @@ em {
     break-inside: avoid;
     border: var(--base02);
     border-style: solid;
-    padding: 0.7em;
+    padding: 0.3em;
 }
 
 .organization .tenure {
@@ -208,4 +214,10 @@ em {
 
 #language-list li {
     list-style-type: none;
+}
+
+.hacklmao {
+    /* HACK */
+    /* add top margin to elements at the top of a page so page breaks look nice*/
+    margin-top: 4em;
 }
