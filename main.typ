@@ -76,7 +76,7 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
 
 = Cybersecurity Competitions
 - Finalist at CyberSpike 2023
-- Ranked \#4 in Estonia on #link("https://ctftime.org/team/223398")[CTFTime]
+- Ranked \#4 in Estonia on #link("https://ctftime.org/team/223398")[CTFTime] in 2023
 
 = Volunteering
 #volunteering(
