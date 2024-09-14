@@ -16,6 +16,14 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
 
 = Work Experience
 #experience(
+  [#link("https://www.gamesglobal.com/")[Games Global]],
+  "Software Development Intern",
+  "Tallinn, Estonia",
+  "Sep 2024 - present",
+  [],
+)
+
+#experience(
   "Orkla Accounting Centre",
   "Data Analyst",
   "Tallinn, Estonia",
