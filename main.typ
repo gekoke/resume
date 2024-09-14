@@ -66,20 +66,6 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
   ],
 )
 
-#project(
-  [#link("https://github.com/gekoke/xsdm")[xsdm]],
-  [
-    An extra simple terminal display manager written in Go (_work in progress_)
-  ],
-)
-
-#project(
-  [#link("https://github.com/gekoke/flake-auto-follows")[flake-auto-follows]],
-  [
-    A CLI tool to check for unfollowed #link("https://wiki.nixos.org/wiki/Flakes")[Nix Flake] inputs written in Rust (_work in progress_)
-  ],
-)
-
 = Cybersecurity Competitions
 - Finalist at CyberSpike 2023
 - Ranked \#4 in Estonia on #link("https://ctftime.org/team/223398")[CTFTime]
