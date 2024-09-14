@@ -12,7 +12,7 @@
 
 = Summary
 Software enthusiast and open-source contributor with nearly 7 years of experience, a knack for Linux systems, and an interest in cybersecurity.
-Most proficient in traditional object-oriented languages, but a polyglot with a penchant for functional paradigms at heart.
+Most proficient in mainstream object-oriented languages, but a polyglot with a penchant for functional paradigms at heart.
 
 = Work Experience
 #experience(
