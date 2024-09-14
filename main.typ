@@ -11,7 +11,7 @@
 )
 
 = Summary
-Software enthusiast and open-source contributor with nearly 7 years of experience, a knack for Linux systems, and an interest in cybersecurity.
+Software enthusiast and open-source contributor with nearly 7 years of experience and a knack for Linux systems.
 Most proficient in mainstream object-oriented languages, but a polyglot with a penchant for functional paradigms at heart.
 
 = Work Experience
