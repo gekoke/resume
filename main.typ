@@ -74,6 +74,13 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
   ],
 )
 
+#project(
+  [#link("https://github.com/gekoke/AntSimulator")[AntSimulator]],
+  [
+    A simple ant simulator inspired by the work of Sebastian Lague and Jean Tampon
+  ],
+)
+
 = Cybersecurity Competitions
 - Finalist at CyberSpike 2023
 - Ranked \#4 in Estonia on #link("https://ctftime.org/team/223398")[CTFTime] in 2023
