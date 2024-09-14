@@ -85,6 +85,7 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
   "Oct 2022 - present",
   [
     - Packaging and updating software for the world's largest package archive #link("https://github.com/NixOS/nixpkgs")[nixpkgs]
+    - Assisting users in the NixOS Matrix channel
   ],
 )
 
@@ -94,6 +95,7 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
   "May 2023 - present",
   [
     - Maintaining a #link("https://melpa.org/")[MELPA] package
+    - Assisting users in the Emacs Matrix channel
   ],
 )
 
