@@ -20,8 +20,13 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
   "Tallinn, Estonia",
   (
     (
+      "Software Developer Level 1",
+      "Dec 2024 - present",
+      none,
+    ),
+    (
       "Software Development Intern",
-      "Sep 2024 - present",
+      "Sep 2024 - Dec 2024",
       none,
     ),
   ),
@@ -118,7 +123,6 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
   "May 2023 - present",
   [
     - Maintaining a #link("https://melpa.org/")[MELPA] package
-    - Assisting users in the Emacs Matrix channel
   ],
 )
 
