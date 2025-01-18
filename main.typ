@@ -17,46 +17,62 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
 = Work Experience
 #experience(
   [#link("https://www.gamesglobal.com/")[Games Global]],
-  "Software Development Intern",
   "Tallinn, Estonia",
-  "Sep 2024 - present",
-  [],
+  (
+    (
+      "Software Development Intern",
+      "Sep 2024 - present",
+      none,
+    ),
+  ),
 )
 
 #experience(
   "Orkla Accounting Centre",
-  "Data Analyst",
   "Tallinn, Estonia",
-  "Jun 2021 - Oct 2022",
-  [
-    - Maintained software deployments processing thousands of invoices per month
-    - Developed mission-critical .NET application to parse thousands of sales data entries
-    - Eliminated administrative processes saving hours of time per month using Python and Selenium
-  ],
+  (
+    (
+      "Data Analyst",
+      "Jun 2021 - Oct 2022",
+      [
+        - Maintained software deployments processing thousands of invoices per month
+        - Developed mission-critical .NET application to parse thousands of sales data entries
+        - Eliminated administrative processes saving hours of time per month using Python and Selenium
+      ],
+    ),
+  ),
 )
 
 = Entrepreneurial Experience
 #experience(
   [#link("https://www.abiõpetaja.ee")[Abiõpetaja]],
-  "Technical Co-Founder",
   "Tallinn, Estonia",
-  "Jan 2024 - present",
-  [
-    - Developed Django application and guaranteed its reliability with end-to-end NixOS tests
-    - Ensured reproducible provisioning of infrastructure using Terraform (OpenTofu)
-    - Bootstrapped a reliable CI/CD pipeline to AWS using Nix, NixOS, and GitHub Actions
-  ],
+  (
+    (
+      "Technical Co-Founder",
+      "Jan 2024 - present",
+      [
+        - Developed Django application and guaranteed its reliability with end-to-end NixOS tests
+        - Ensured reproducible provisioning of infrastructure using Terraform (OpenTofu)
+        - Bootstrapped a reliable CI/CD pipeline to AWS using Nix, NixOS, and GitHub Actions
+      ],
+    ),
+  ),
 )
 
 = Education
 #experience(
   "TalTech",
-  "BSc - Computer Science",
   "Tallinn, Estonia",
-  "Sep 2020 - Jun 2024",
-  [
-    - Tutored coursemates in Python, Java, C++, Haskell, Idris, and Ansible courses
-  ],
+  (
+    (
+      "BSc - Computer Science",
+      "Sep 2020 - Jun 2024",
+      [
+        - Tutored coursemates in Python, Java, C++, Haskell, Idris, and Ansible courses
+      ],
+    ),
+  ),
 )
 
 = Personal Projects

@@ -46,21 +46,27 @@
   )
 }
 
-#let experience(organization, title, location, time, details) = {
+#let experience(organization, location, experiences) = {
   pad(
-    grid(
-      columns: (auto, 1fr),
-      align(left)[
-        *#organization* \
-        #title
-      ],
-      align(right)[
-        #location \
-        #time
-      ],
-    ),
+    bottom: 5pt,
+    [
+      #grid(
+        columns: (auto, 1fr),
+        rows: 0pt,
+        align(left)[*#organization*], align(right)[#location],
+      )
+      #for (title, time, details) in experiences {
+        grid(
+          rows: 1pt,
+          columns: (auto, 1fr),
+          align(left)[#title], align(right)[#time],
+        )
+        if details != none {
+          pad(bottom: -2.5pt, details)
+        }
+      }
+    ],
   )
-  details
 }
 
 #let project(name, details) = {
