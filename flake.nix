@@ -44,7 +44,18 @@
           packages = {
             default = self'.packages.resume;
 
-            resume = typix.buildTypstProject (typixArgs // { src = typixSrc; });
+            resume =
+              let
+                build = typix.buildTypstProject (typixArgs // { src = typixSrc; });
+                withGitRev = build.overrideAttrs (_old: {
+                  patchPhase = ''
+                    runHook prePatch
+                    substituteInPlace main.typ \
+                        --replace-fail "%%GIT_REV%%" "${inputs.self.sourceInfo.rev or "UNCOMMITTED CHANGES"}"
+                    runHook postPatch
+                  '';
+                });
+                in withGitRev;
 
             watchScript = typix.watchTypstProject typixArgs;
           };

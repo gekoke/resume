@@ -131,3 +131,4 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
 
 #language("English", "C2")
 
+_Built reproducibly using #link("http://nixos.org/")[Nix] from #link("https://github.com/gekoke/resume/commit/%%GIT_REV%%")[commit %%GIT_REV%%]_
