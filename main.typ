@@ -120,7 +120,7 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
 #volunteering(
   [#link("https://www.gnu.org/")[GNU Project]],
   "Community Member",
-  "May 2023 - present",
+  "May 2024 - Feb 2025",
   [
     - Maintaining a #link("https://melpa.org/")[MELPA] package
   ],
