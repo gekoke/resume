@@ -30,24 +30,23 @@
         }:
         let
           typix = inputs.typix.lib.${system};
-          typixSrc = typix.cleanTypstSource ./.;
-          typixArgs = {
-            virtualPaths = [
-              {
-                dest = "icons";
-                src = "${inputs.font-awesome}/svgs/";
-              }
-            ];
-          };
+          virtualPaths = [
+            {
+              dest = "icons";
+              src = "${inputs.font-awesome}/svgs/";
+            }
+          ];
         in
         {
           packages = {
             default = self'.packages.resume;
 
             resume =
-              let
-                build = typix.buildTypstProject (typixArgs // { src = typixSrc; });
-                withGitRev = build.overrideAttrs (_old: {
+              (typix.buildTypstProject {
+                src = typix.cleanTypstSource ./.;
+                inherit virtualPaths;
+              }).overrideAttrs
+                (_: {
                   patchPhase = ''
                     runHook prePatch
                     substituteInPlace main.typ \
@@ -55,9 +54,8 @@
                     runHook postPatch
                   '';
                 });
-                in withGitRev;
 
-            watchScript = typix.watchTypstProject typixArgs;
+            watchScript = typix.watchTypstProject { inherit virtualPaths; };
           };
 
           apps = {
