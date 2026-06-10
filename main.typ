@@ -91,14 +91,7 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
 #project(
   [#link("https://github.com/gekoke/dotfiles")[dotfiles]],
   [
-    Declarative and reproducible system configurations with Nix
-  ],
-)
-
-#project(
-  [#link("https://github.com/gekoke/AntSimulator")[AntSimulator]],
-  [
-    A simple ant simulator inspired by the work of Sebastian Lague and Jean Tampon
+    Declarative and reproducible system configurations (and more) with Nix
   ],
 )
 
