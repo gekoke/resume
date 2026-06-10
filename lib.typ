@@ -110,3 +110,8 @@
     ),
   )
 }
+
+#let footer(body) = {
+  align(center, line(length: 100%, stroke: 1pt))
+  body
+}

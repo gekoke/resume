@@ -1,4 +1,4 @@
-#import "lib.typ": resume, icon, experience, project, language, volunteering
+#import "lib.typ": resume, icon, experience, project, language, volunteering, footer
 
 #show: resume.with(
   author: "Gregor Grigorjan",
@@ -124,4 +124,6 @@ Most proficient in mainstream object-oriented languages, but a polyglot with a p
 
 #language("English", "C2")
 
-_Built reproducibly using #link("http://nixos.org/")[Nix] from #link("https://github.com/gekoke/resume/commit/%%GIT_REV%%")[commit %%GIT_REV%%]_
+#footer[
+  _Built reproducibly using #link("http://nixos.org/")[Nix] from #link("https://github.com/gekoke/resume/commit/%%GIT_REV%%")[commit %%GIT_REV%%]_
+]
